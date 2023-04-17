@@ -725,7 +725,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/Dark-bg-tab2x-min);
+        url(../images/Dark-bg-tab2x-min.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -737,7 +737,7 @@ img {
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab2x-min);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab2x-min.jpg);
       }
     }
   
@@ -1368,19 +1368,19 @@ img {
       background-position: center;
     }
     .about-item:nth-child(1)::before {
-      background-image: url(../images/sprite.svg#icon-antenna);
+      background-image: url(../images/antenna\ 1.svg);
     }
   
     .about-item:nth-child(2)::before {
-      background-image: url(../images/sprite.svg#icon-clock);
+      background-image: url(../images/clock\ 1.svg);
     }
   
     .about-item:nth-child(3)::before {
-      background-image: url(../images/sprite.svg#icon-diagram);
+      background-image: url(../images/diagram\ 1.svg);
     }
   
     .about-item:nth-child(4)::before {
-      background-image: url(../images/sprite.svg#icon-astronaut);
+      background-image: url(../images/astronaut\ 1.svg);
     }
     /* DOING */
     .doing {
@@ -1626,7 +1626,6 @@ img {
       border-radius: 4px;
       border: 0;
       cursor: pointer;
-  
       background: var(--accent-color);
       transition: background-color var(--timing-cubic);
     }
@@ -1883,12 +1882,9 @@ img {
     color: rgba(46, 47, 66, 0.4);
   }
 
-  
-
-
-
 /**--section-portfolio*/
 .section-portfolio {
+    width: 100%;
     padding-bottom: 120px;
     padding-top: 96px;
     justify-content: center;
