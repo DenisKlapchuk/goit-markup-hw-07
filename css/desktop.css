@@ -1,9 +1,0 @@
-@media screen and (min-width: 1158px){
-    .container {
-        width: var(--desktop);
-    }
-    .section-features { 
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-}
