@@ -710,7 +710,7 @@ img {
     .active {
       transition: var(--timing-cubic);
     }
-  
+    
     .active:hover,
     .active:focus {
       color: var(--hover-color);
