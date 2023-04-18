@@ -659,7 +659,6 @@ img {
       display: block;
       width: 100%;
       height: 4px;
-  
       background-color: var(--hover-color);
       border-radius: 2px;
     }
@@ -710,7 +709,7 @@ img {
     .active {
       transition: var(--timing-cubic);
     }
-    
+
     .active:hover,
     .active:focus {
       color: var(--hover-color);
@@ -901,7 +900,7 @@ img {
     .specifics-text {
       font-weight: 500;
       font-size: 16px;
-      line-height: 1.5;
+      line-height: 24px;
       letter-spacing: 0.02em;
       color: var(--primary-text-color);
     }
@@ -996,10 +995,6 @@ img {
       text-align: center;
     }
   
-    .customers {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
   
     .customers-list {
       display: flex;
@@ -1055,7 +1050,7 @@ img {
     .footer-content {
       display: flex;
       flex-wrap: wrap;
-      gap: 24px;
+      gap: 72px;
     }
     .basement-logo {
       font-family: "Raleway", sans-serif;
@@ -1165,8 +1160,7 @@ img {
       padding: 8px 24px;
       gap: 16px;
       margin: auto;
-      margin-top: 0;
-  
+      margin-top: 0
       transition: background-color var(--timing-cubic);
     }
     .form-div {
@@ -1350,7 +1344,7 @@ img {
     .text-dsc {
       font-weight: 400;
       font-size: 16px;
-      line-height: 1.2;
+      line-height: 24px;
       letter-spacing: 0.02em;
       color: var(--primary-text-color);
     }
@@ -1721,7 +1715,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
     border: 1px solid var(--border);
     padding: 0;
     width: 24px;
@@ -1850,6 +1843,10 @@ img {
     border-radius: 2px;
     display: block;
   }
+  .privacy-text {
+    text-decoration: underline;
+    color: rgba(77, 90, 229, 1);
+  }
   
   .check-text {
     display: flex;
@@ -1864,6 +1861,7 @@ img {
     margin-bottom: 24px;
     align-items: center;
   }
+
   
   .modal-check:checked + .check-text::before {
     background-color: var(--hover-color);
